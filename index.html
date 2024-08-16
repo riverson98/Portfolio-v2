@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+</head>
+
+<body class="container">
+    <!-- ------------------------------------------------------ Header -->
+    <header class="header overall-layout">
+        <a class="header__logo" href="#">RC Solutions</a>
+
+        <nav class="header__nav">
+            <a class="header__nav--link" href="#">Home</a>
+            <a class="header__nav--link" href="#personal-info">About</a>
+            <a class="header__nav--link" href="#stacks">Stack</a>
+            <a class="header__nav--link" href="#projects">Projects</a>
+            <a class="header__nav--link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+        </div>
+    </header>
+
+    <!-- ------------------------------------------------------ Header -->
+    <section id="hero" class="hero overall-layout section__padding">
+        <div class="hero__content">
+            <h6 class="hero__content--mini-title">Welcome to</h6>
+
+            <h2 class="hero__content--title">My Portfolio</h2>
+
+            <p class="hero__content--para">
+                I love to pause the wild, happy and real moments of life, just to hear
+                their stories untold.
+            </p>
+
+            <div class="hero__content--links">
+                <a class="hero__content--links__projects" href="#projects">Projects</a>
+                <a class="hero__content--links__contact"
+                    href="https://www.linkedin.com/in/riverson-vicente-196300218/">Contact</a>
+            </div>
+        </div>
+
+        <figure class="hero__bg">
+            <img loading="lazy" src="images/hero-bg.png" alt="Studio" />
+        </figure>
+    </section>
+
+    <!-- ------------------------------------------------------ Personal Info -->
+    <section id="personal-info" class="personal-info overall-layout section__padding">
+        <div class="personal-info__content">
+            <h2 class="personal-info__content--title section__title">
+                Hello, I'm Ríverson, a full stack development based Brazil
+            </h2>
+
+            <p class="personal-info__content--para section__para">
+                As i said, your friendly neighbourhood developer...
+
+                I'm a full-stack developer from Brazil.
+                My primary backend languages are C#, Java, and Rust.js, while I use Angular for frontend development.
+                Additionally, I have experience with Docker, MySQL, and Azure.
+
+                When I'm not coding, I enjoy watching One Piece whenever I get the chance. Also, I love singing in the
+                shower! Feel free to explore my projects and get in touch if you'd like to collaborate or just have a
+                chat about tech, anime, or music.
+
+                Thanks for visiting my portfolio!
+            </p>
+
+            <ul class="personal-info__content--experience">
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    <li class="section__para">Over 3 Years of Experience</li>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    <li class="section__para">Successfully Executed Projets</li>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    <li class="section__para">Exceptional Work Quality</li>
+                </div>
+            </ul>
+        </div>
+
+        <figure class="personal-info__img">
+            <img loading="lazy" src="images/my-photo-1.jpg" alt="Personal Image" />
+        </figure>
+    </section>
+
+    <!-- ------------------------------------------------------ Stacks -->
+    <section id="stacks" class="stack overall-layout section__padding">
+        <h2 class="section__title">My Stacks</h2>
+
+        <p class="stack__para section__para">
+            I work as a full-stack developer with experience in C#, Java, and NestJS on the backend. On the frontend, I
+            work with
+            <span>
+                Angular, HTML, CSS, and JavaScript, delivering robust and scalable solutions.
+            </span>
+        </p>
+
+        <div class="stack__stacks-cards">
+            <div class="stack__stacks-cards--card">
+                <i class="fa-solid fa-c">#</i>
+                <h3>Csharp</h3>
+                <p class="section__para">
+                    C# Entity Framework ASP.NET Web API for scalable backend solutions.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p class="section__para">
+                    Java with Spring Boot, WebFlux, and Quarkus for high-performance microservices.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-angular"></i>
+                <h3>Angular</h3>
+                <p class="section__para">
+                    Angular with Directives, Routes, Components, and Pipes for dynamic web applications.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>Html</h3>
+                <p class="section__para">
+                    HTML for structuring web content with semantic, accessible, and responsive designs.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>Css</h3>
+                <p class="section__para">
+                    CSS for styling responsive, visually appealing, and consistent web interfaces.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-js"></i>
+                <h3>Js</h3>
+                <p class="section__para">
+                    JavaScript for dynamic, interactive, and responsive web functionality and applications.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-solid fa-database"></i>
+                <h3>My SQL</h3>
+                <p class="section__para">
+                    SQL for efficient data querying, manipulation, and relational database management.
+                </p>
+            </div>
+
+            <div class="stack__stacks-cards--card">
+                <i class="fa-brands fa-docker"></i>
+                <h3>Docker</h3>
+                <p class="section__para">
+                    Docker for containerizing applications, ensuring consistency, scalability, and easy deployment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------ News -->
+    <section class="news overall-layout section__padding">
+        <div class="news__info">
+            <h2 class="news__info--title section__title">Latest News</h2>
+
+            <p class="news__info--para section__para">
+                By David Ramel
+            </p>
+        </div>
+
+        <article class="news__article">
+            <div class="news__article--content">
+                <h6 class="news__article--content__mini-title">Resources</h6>
+
+                <h3 class="news__article--content__title">
+                    C# Dev Kit Update Helps Wrangle NuGet Packages and More in VS Code
+                </h3>
+
+                <p class="news__article--content__para section__para">
+                    Microsoft's C# Dev Kit extension for Visual Studio Code has been updated to more easily wrangle
+                    NuGet packages, run/debug .NET Aspire applications, see the active document in Solution Explorer and
+                    acquire the .NET SDK within the editor.
+                </p>
+
+                <div>
+                    <a class="news__article--content__link"
+                        href="https://visualstudiomagazine.com/Articles/2024/05/08/csharp-dev-kit-update.aspx">Read
+                        More</a>
+                    <p class="news__article--content__date section__para">
+                        05 Aug, 2024
+                    </p>
+                </div>
+            </div>
+
+            <figure class="news__article--img">
+                <img loading="lazy" src="images/CsharpTools.jpg" alt="Cosina Lens" />
+            </figure>
+        </article>
+    </section>
+
+    <!-- ------------------------------------------------------ My Projects -->
+    <section id="projects" class="my-works overall-layout section__padding">
+        <h2 class="my-works__title section__title">My Projects</h2>
+
+        <article class="my-works__article">
+            <div class="my-works__article--content">
+                <h3 class="my-works__article--content__title">
+                    C# Application
+                </h3>
+
+                <p class="news__article--content__para section__para">
+                    API of authentication that uses jwt tokens to authenticate users also uses roles to manage
+                    permissions. It uses clean arch, solid conceits, entity framework and .NET 8
+                </p>
+            </div>
+
+            <figure class="my-works__article--img">
+                <a href="https://github.com/riverson98/RRSolucoesAuth">
+                    <img loading="lazy" src="images/csharp.png" alt="c# project" />
+                </a>
+            </figure>
+        </article>
+
+        <article class="my-works__article">
+            <div class="my-works__article--content">
+                <h3 class="my-works__article--content__title">
+                    Java Application
+                </h3>
+
+                <p class="news__article--content__para section__para">
+                    API to create any type of services to users made with Java 17 and spring-boot and mysql database
+                </p>
+            </div>
+
+            <figure class="my-works__article--img">
+                <a href="https://github.com/riverson98/Customers-Base">
+                    <img loading="lazy" src="images/java.png" alt="Cosina Lens" />
+                </a>
+            </figure>
+        </article>
+    </section>
+
+    <!-- ------------------------------------------------------ Contact -->
+    <section id="contact" class="contact overall-layout parallax section__padding">
+        <div class="contact__info">
+            <h2 class="contact__info--title">
+                Need help with your application? Let's work together!
+            </h2>
+
+            <a class="contact__info--link" href="https://www.linkedin.com/in/riverson-vicente-196300218/">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="contact__testimonial">
+            <p class="contact__testimonial--para section__para">
+                I am a dedicated software developer with 3 years of experience specializing in .NET, Entity Framework,
+                and MySQL 8. I hold certifications in Clean Architecture, SOLID principles, Java Backend, and Web API
+                with .NET 8. Additionally, I have hands-on experience with Docker and a solid understanding of Linux
+                environments.
+            </p>
+
+            <div class="contact__testimonial--info">
+                <figure class="contact__testimonial--info__img">
+                    <img loading="lazy" src="images/my-photo-2.jpg" alt="James Brown" />
+                </figure>
+
+                <div>
+                    <p class="contact__testimonial--info__name">Ríverson Costa</p>
+                    <p class="contact__testimonial--info__role">CEO, RC Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------------ Clients -->
+    <section id="client" class="clients overall-layout">
+        <figure class="clients__client">
+            <img src="images/logo-equifax.png" alt="client" loading="lazy" />
+        </figure>
+
+        <figure class="clients__client">
+            <img src="images/logo-qualyteam.png" alt="client" loading="lazy" />
+        </figure>
+    </section>
+
+    <!-- ------------------------------------------------------ Footer -->
+    <footer class="footer overall-layout section__padding">
+        <div class="footer__author">
+            <div class="footer__author--info">
+                <a class="header__logo" href="#">RC Solutions</a>
+
+                <p class="footer__author--info__para">
+                    RC Solutions specializes in software development, delivering innovative and tailored technology
+                    solutions to meet diverse client needs.
+                </p>
+            </div>
+
+            <div class="footer__author--quick-links">
+                <h3 class="footer__author--quick-links__title">Quick Links</h3>
+
+                <ul class="footer__author--quick-links__container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#personal-info">About</a></li>
+                    <li><a href="#stacks">Stacks</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__author--contact">
+                <h3 class="footer__author--contact__title">Contact</h3>
+
+                <ul class="footer__author--contact__container">
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <li>riversonvicente@gmail.com</li>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-address-card"></i>
+                        <li>Itajaí, SC, BR</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__copy-rights">
+            <p>Ríverson Costa. All Rights Reserved</p>
+
+            <div class="footer__copy-rights--social">
+                <a href="https://www.linkedin.com/in/riverson-vicente-196300218/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ------------------------------------------------------ JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
